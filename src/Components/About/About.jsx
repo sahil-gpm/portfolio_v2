@@ -42,7 +42,7 @@ const About = () => {
                     <div className="address flex justify-start gap-3">
                         <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={add} alt="" />Address:</span> Mumbai,India
                     </div>
-                    <div className="email flex justify-start items-center gap-3 ">
+                    <div className="email flex justify-start items-center md:gap-3 gap-1">
                       <img className='w-4 h-4' src={mail} alt="" />sahilchavangithub@gmail.com
                     </div>
                     <div className="phone flex justify-start gap-3">
