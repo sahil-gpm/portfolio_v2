@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Projectcomponent = ({name,description,color,link}) => {
   return (
-    <div className='bg-card mt-2 p-10 w-full md:w-[28rem] rounded-2xl '>
+    <div className='bg-card mt-2 p-10 w-full md:w-[34rem] rounded-2xl '>
       <div className="logo text-8xl font-bold flex justify-center items-center" style={{color:color}}>
         {name.substring(0,1)}
       </div>
