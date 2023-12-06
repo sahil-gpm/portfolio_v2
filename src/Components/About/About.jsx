@@ -29,9 +29,9 @@ const About = () => {
             initial="hidden"
             transition={{ duration: 0.8, delay: 0.25 }}
             animate={mainControls}
-            className='w-[85%] lg:w-[65%] h-fit min-[1500px]:h-[60vh] mx-auto'>
+            className='w-[85%] lg:w-[65%] h-fit min-[1250px]:h-[60vh] mx-auto'>
             <div className='text-white heading text-4xl lg:text-6xl font-bold tracking-tight'>About <span className='text-main'>me</span> ↴</div>
-            <div className='flex flex-col min-[1500px]:flex-row justify-center text-white mt-10 gap-10'>
+            <div className='flex flex-col min-[1200px]:flex-row justify-center text-white mt-10 gap-10'>
                 <div className="basic-details text-base md:text-xl flex flex-col justify-center gap-3 md:gap-6">
                     <div className="name flex justify-start gap-3">
                         <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={name} alt="" />Name ↦</span>Sahil Chavan
@@ -54,7 +54,7 @@ const About = () => {
                         </button>
                     </a>
                 </div>
-                <div className="my-info md:font-semibold text-sm md:text-xl w-[90%] md:w-[60%]">
+                <div className="my-info md:font-semibold text-sm md:text-xl w-[90%] md:w-[90%] lg:[60%">
                     Passionate and hardworking <span className='text-main'>Full stack web developer 🧑‍💻</span>, <span className='text-main'>Learning UI/UX designer ⌘</span> and a <span className='text-main'>Little bit of android developer 📲</span>.
                     I am currently a student looking for a chance to use my skills in real world problem solving 🌍.
                     Besides tech, I am also intersted in playing video games ( FH5 is my favourite open world game 🏎️ ),exploring nature ☘️ and clicking pics of beautiful animals 🐶.I always focus on keeping myself updated with latest emerging technologies. My journey ✈️ is marked by a passion for problem-solving, user-centric design, and effective collaboration. From building robust web applications to navigating the world of Figma and crafting Android apps, I'm driven by a commitment to excellence.🧑‍💻.Join me on this dynamic journey where each line of code tells a story of innovation 🌟 and continuous 🚀 learning, making myself better day-by-day.
