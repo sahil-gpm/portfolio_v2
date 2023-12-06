@@ -29,24 +29,24 @@ const About = () => {
             initial="hidden"
             transition={{ duration: 0.8, delay: 0.25 }}
             animate={mainControls}
-            className='w-[85%] lg:w-[75%] h-fit min-[1300px]:h-[60vh] mx-auto'>
+            className='w-[85%] lg:w-[65%] h-fit min-[1300px]:h-[60vh] mx-auto'>
             <div className='text-white heading text-4xl lg:text-6xl font-bold tracking-tight'>About <span className='text-main'>me</span> ↴</div>
             <div className='flex flex-col min-[1200px]:flex-row justify-center text-white mt-10 gap-10'>
                 <div className="basic-details text-sm flex flex-col justify-center gap-3 md:gap-6">
                     <div className="name flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={name} alt="" />Name ↦</span>Sahil Chavan
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={name} alt="" />Name:</span>Sahil Chavan
                     </div>
                     <div className="dob flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={dob} alt="" />Date of Birth ↦</span> April 30, 2005
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={dob} alt="" />Date of Birth:</span> April 30, 2005
                     </div>
                     <div className="address flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={add} alt="" />Address ↦</span> Mumbai,Maharashtra,India
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={add} alt="" />Address:</span> Mumbai,India
                     </div>
                     <div className="email flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={mail} alt="" />Email ↦</span> sahilchavangithub@gmail.com
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={mail} alt="" />Email:</span> sahilchavangithub@gmail.com
                     </div>
                     <div className="phone flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={phone} alt="" />Phone ↦</span> +91 9922341223
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={phone} alt="" />Phone:</span> +91 9922341223
                     </div>
                     <a href={resume} download={"resume.pdf"} target='_blank' rel='noreferrer'>
                         <button className='text-white btn-grad text-sm font-semibold w-40 lg:w-52 lg:px-5 py-4 mt-2'>
