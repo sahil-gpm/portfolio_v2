@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* other utility classes */
+/* CSS for the container of the content */
+.headanim {
+    opacity: 0;
+    /* Set initial opacity to 0 */
+    transform: translateY(30px);
+    /* Move the content down initially */
+    transition: opacity 1.2s ease-in-out, transform 0.6s ease-in-out;
+    /* Apply transition to opacity and transform properties */
+}
+
+/* CSS to trigger the animation when the content is loaded */
+.headanim.loaded {
+    opacity: 1;
+    /* Set opacity to 1 when content is loaded */
+    transform: translateY(0);
+    /* Move the content up to its original position */
+}
+
+.aboutanim {
+    opacity: 0;
+    transform: translateY(90px);
+    transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+}
+
+
+.aboutanim.in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+
+body{
+    background-color: #050a1f;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+#skill{
+    scroll-snap-align: end;
+}
