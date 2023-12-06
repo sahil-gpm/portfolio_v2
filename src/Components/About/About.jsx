@@ -37,7 +37,7 @@ const About = () => {
                         <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={name} alt="" />Name:</span>Sahil Chavan
                     </div>
                     <div className="dob flex justify-start gap-3">
-                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={dob} alt="" />Date of Birth:</span> April 30, 2005
+                        <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={dob} alt="" />Dob:</span> April 30, 2005
                     </div>
                     <div className="address flex justify-start gap-3">
                         <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={add} alt="" />Address:</span> Mumbai,India
