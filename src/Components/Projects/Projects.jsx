@@ -17,14 +17,17 @@ export const Projects = () => {
     }, [isInView, mainControls])
 
     const projectData = [{
+        link : "https://github.com/sahil-gpm/OnCode-Frontend",
         name: "Oncode",
         color: "#fb6976",
         description: "Oncode is a online web based coding utility cum community that enables you to store, organize and 🧑‍💻 compile your codes at one place along with a sharable real time compiler 🕐.Also a helpful community of your friends to solve your problems 😌."
     },{
+        link : "https://github.com/sahil-gpm/chatrooms",
         name: "Chatrooms",
         color: "#4ade80",
         description: "Chatrooms is full stack mern app 💚 the allows you to create rooms of your personal interests using socket.io and connect with strangers 😌, initiate conversations and make friends 🤞"
     },{
+        link : "https://github.com/sahil-gpm/newsfeed",
         name: "Newsfeed",
         color: "#1e3a8a",
         description: "Newsfeed is a API based application made with help of news api to fetch 📰 news according to your notionality 🇮🇳 and personal intersting categories ⌘"
@@ -49,7 +52,7 @@ export const Projects = () => {
             <div className="projects flex flex-wrap gap-4 justify-center mt-10">
                 {projectData.map((p) => {
                     return (
-                        <Projectcomponent name={p.name} color={p.color} description={p.description} />
+                        <Projectcomponent name={p.name} color={p.color} description={p.description} link={} />
                     )
                 })}
             </div>

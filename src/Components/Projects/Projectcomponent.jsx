@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projectcomponent = ({name,description,color,link}) => {
   return (
@@ -12,7 +13,7 @@ const Projectcomponent = ({name,description,color,link}) => {
       <div className="project-description text-sm md:text-base text-white text-center mt-4 font-semibold">
         {description}
       </div>
-      <button style={{color:"#fffff",backgroundColor:color,marginTop:"3.5rem"}} className='px-7 py-3 rounded-md'>Github</button>
+     <Link to={link}><button style={{color:"#fffff",backgroundColor:color,marginTop:"3.5rem"}} className='px-7 py-3 rounded-md'>Github</button></Link>
     </div>
   )
 }

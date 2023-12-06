@@ -54,7 +54,7 @@ const About = () => {
                         </button>
                     </a>
                 </div>
-                <div className="my-info font-semibold text-sm md:text-xl w-[90%] md:w-[90%] lg:[60%]">
+                <div className="my-info font-semibold text-base w-[90%] md:w-[90%] lg:[60%]">
                     Passionate and hardworking <span className='text-main'>Full stack web developer 🧑‍💻</span>, <span className='text-main'>Learning UI/UX designer ⌘</span> and a <span className='text-main'>Little bit of android developer 📲</span>.
                     I am currently a student looking for a chance to use my skills in real world problem solving 🌍.
                     Besides tech, I am also intersted in playing video games ( FH5 is my favourite open world game 🏎️ ),exploring nature ☘️ and clicking pics of beautiful animals 🐶.I always focus on keeping myself updated with latest emerging technologies. My journey ✈️ is marked by a passion for problem-solving, user-centric design, and effective collaboration. From building robust web applications to navigating the world of Figma and crafting Android apps, I'm driven by a commitment to excellence.🧑‍💻.Join me on this dynamic journey where each line of code tells a story of innovation 🌟 and continuous 🚀 learning, making myself better day-by-day.
