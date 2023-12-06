@@ -29,7 +29,7 @@ const About = () => {
             initial="hidden"
             transition={{ duration: 0.8, delay: 0.25 }}
             animate={mainControls}
-            className='w-[85%] lg:w-[65%] h-fit min-[1250px]:h-[60vh] mx-auto'>
+            className='w-[85%] lg:w-[75%] h-fit min-[1300px]:h-[60vh] mx-auto'>
             <div className='text-white heading text-4xl lg:text-6xl font-bold tracking-tight'>About <span className='text-main'>me</span> ↴</div>
             <div className='flex flex-col min-[1200px]:flex-row justify-center text-white mt-10 gap-10'>
                 <div className="basic-details text-base md:text-xl flex flex-col justify-center gap-3 md:gap-6">
