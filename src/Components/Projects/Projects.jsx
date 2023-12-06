@@ -52,7 +52,7 @@ export const Projects = () => {
             <div className="projects flex flex-wrap gap-4 justify-center mt-10">
                 {projectData.map((p) => {
                     return (
-                        <Projectcomponent name={p.name} color={p.color} description={p.description} link={} />
+                        <Projectcomponent name={p.name} color={p.color} description={p.description} link={p.link} />
                     )
                 })}
             </div>
