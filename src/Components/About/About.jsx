@@ -32,7 +32,7 @@ const About = () => {
             className='w-[85%] lg:w-[75%] h-fit min-[1300px]:h-[60vh] mx-auto'>
             <div className='text-white heading text-4xl lg:text-6xl font-bold tracking-tight'>About <span className='text-main'>me</span> ↴</div>
             <div className='flex flex-col min-[1200px]:flex-row justify-center text-white mt-10 gap-10'>
-                <div className="basic-details text-base md:text-xl flex flex-col justify-center gap-3 md:gap-6">
+                <div className="basic-details text-sm md:text-xl flex flex-col justify-center gap-3 md:gap-6">
                     <div className="name flex justify-start gap-3">
                         <span className='flex justify-start items-center md:gap-3 gap-1 font-semibold'><img className='w-4 h-4' src={name} alt="" />Name ↦</span>Sahil Chavan
                     </div>
