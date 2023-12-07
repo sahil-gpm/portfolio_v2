@@ -3,15 +3,13 @@ import demo from '../assets/demo.jpg'
 import { useInView } from 'react-intersection-observer'
 import Typing from '../Typed/Typing'
 import blob1 from '../assets/svgs/blob.svg'
-import blob2 from '../assets/svgs/blob-2.svg'
 
 const Intro = () => {
     const { ref: myRef, inView: introVisible } = useInView();
     return (
         <>
-        <div className="iamges w-[20rem] lg:w-[50rem] absolute top-96 -z-10 overflow-x-hidden">
+        <div className="iamges w-[20rem] lg:w-[50rem] absolute top-96 -z-10 ">
            <img src={blob1} alt="" className='opacity-10 absolute left-0 md:left-10 -top-96 md:top-32' />
-           <img src={blob2} className='absolute -right-[3.9rem] md:left-[58rem] md:top-[34rem] opacity-30' alt="" />
         </div>
             <div className={`flex flex-col mt-40 md:mt-0 lg:flex-row md:justify-center items-center w-[85%] md:w-[90%] lg:w-[70%] mx-auto h-[80vh] md:h-[100vh] gap-6 md:gap-14 headanim ${introVisible ? 'loaded' : ''}`} ref={myRef} >
                 <div className="left">
