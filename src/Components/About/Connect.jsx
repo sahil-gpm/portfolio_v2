@@ -24,7 +24,7 @@ const Connect = () => {
     }, [isInView, mainControls, isInView2, cardControls])
 
     return (
-        <motion.div className="connect mt-32 mb-20 w-[65%] mx-auto text-start"
+        <motion.div className="connect mt-32 mb-20 w-[65%] mx-auto text-start overflow-x-hidden"
             ref={ref}
             variants={{
                 hidden: { opacity: 0, y: 75 },

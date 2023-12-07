@@ -9,7 +9,7 @@ const Intro = () => {
     const { ref: myRef, inView: introVisible } = useInView();
     return (
         <>
-        <div className="iamges w-[20rem] lg:w-[50rem] absolute top-96 -z-10 ">
+        <div className="iamges w-[20rem] lg:w-[50rem] absolute top-96 -z-10 overflow-x-hidden">
            <img src={blob1} alt="" className='opacity-10 absolute left-0 md:left-10 -top-96 md:top-32' />
            <img src={blob2} className='absolute -right-[3.9rem] md:left-[58rem] md:top-[34rem] opacity-30' alt="" />
         </div>

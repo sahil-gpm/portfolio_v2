@@ -100,7 +100,7 @@ const Skills = () => {
   }, [isInView, mainControls, cardControls, isInView2])
 
   return (
-    <motion.div className='h-fit mt-28 w-[95%] lg:w-[65%] md:mx-auto mx-4'
+    <motion.div className='h-fit mt-28 w-[95%] lg:w-[65%] md:mx-auto mx-4 overflow-x-hidden'
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 75 },
