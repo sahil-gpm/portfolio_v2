@@ -13,7 +13,7 @@ const Projectcomponent = ({name,description,color,link}) => {
       <div className="project-description text-sm md:text-base text-white text-center mt-4 font-semibold">
         {description}
       </div>
-     <Link to={link}><button style={{color:"#fffff",backgroundColor:color,marginTop:"3.5rem"}} className='px-7 py-3 rounded-md'>Github</button></Link>
+     <Link to={link}><button style={{color:"#ffffff",fontWeight:600,backgroundColor:color,marginTop:"3.5rem"}} className='px-10 bth-grad py-3 rounded-3xl'>Github</button></Link>
     </div>
   )
 }
