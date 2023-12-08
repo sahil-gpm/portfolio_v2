@@ -43,9 +43,12 @@ const Connect = () => {
                 <motion.div className="contact bg-card w-72 h-44 flex flex-col gap-3 justify-center items-center rounded-md mt-5" ref={cardRef} variants={{ hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0 } }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: 0.25 }}>
                    <img src={phone} className='w-9 h-9' alt="" /> +91 9922 341 223
                 </motion.div>
+                <motion.div>
+
+                </motion.div>
             </div>
             <div className="finish mt-20 mb-10 text-base text-center text-white font-semibold">
-                sahilchavanportfolio@2.0 | 2023
+                sahilchavanportfolio@2.0 || 2023
             </div>
         </motion.div>
     )
