@@ -125,7 +125,7 @@ const Skills = () => {
                   pathColor: "#ee3f85",
                   textColor: "white",
                   textSize: 18,
-                })} strokeWidth={4} value={skill.proficiency === "Basic" ? 60 : skill.proficiency === "Intermediate" ? 80 : 100} text={skill.proficiency === "Basic" ? "3/4" : skill.proficiency === "Intermediate" ? "4/5" : "5/5"} />
+                })} strokeWidth={4} value={skill.proficiency === "Basic" ? 60 : skill.proficiency === "Intermediate" ? 80 : 100} text={skill.proficiency === "Basic" ? "3/5" : skill.proficiency === "Intermediate" ? "4/5" : "5/5"} />
               </div>
               <div className="proficiency text-xs md:text-base mt-1 lg:mt-5">
                 {skill.proficiency === "Basic" ? "⭐️⭐️⭐️" : skill.proficiency === "Intermediate" ? "⭐️⭐️⭐️⭐️" : "⭐️⭐️⭐️⭐️⭐️"}
