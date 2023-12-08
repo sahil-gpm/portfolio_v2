@@ -36,7 +36,7 @@ const Connect = () => {
             <div className="head text-4xl md:text-6xl font-bold text-white text-center">
                 Connect with me ↴
             </div>
-            <div className="connections text-white text-xs md:text-sm flex md:flex-row flex-col justify-center gap-4 mt-4 -ml-3 md:-ml-0">
+            <div className="connections text-white text-xs md:text-sm flex md:flex-row items-center flex-col justify-center gap-4 mt-4">
                 <motion.div className="email bg-card w-72 h-44 rounded-md flex flex-col gap-3 justify-center items-center mt-5" ref={cardRef} variants={{ hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: 0.25 }}>
                     <img src={mail} className='w-9 h-9' alt="" /> sahilchavangithub@gmail.com
                 </motion.div>
@@ -45,7 +45,7 @@ const Connect = () => {
                 </motion.div>
             </div>
             <div className="finish mt-20 mb-10 text-base text-center text-white font-semibold">
-                sahilchavanresume@2.0
+                sahilchavanportfolio@2.0 | 2023
             </div>
         </motion.div>
     )

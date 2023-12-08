@@ -17,12 +17,12 @@ const Intro = () => {
                         <img src={demo} className='w-full h-full rounded-full object-cover ' alt="" />
                     </div>
                 </div>
-                <div className="right  md:bg-trans md:p-0 md:rounded-none md:shadow-none">
-                    <div className="heading text-3xl lg:text-7xl text-white font-bold text-center md:text-start tracking-tight">
+                <div className="right md:bg-trans md:p-0 md:rounded-none md:shadow-none">
+                    <div className="heading text-3xl md:text-6xl lg:text-7xl text-white font-bold text-center md:text-center lg:text-start tracking-tight">
                         <div className='text-xl text-text_light md:text-3xl tracking-normal mb-6'>👋 Hello folks 👋</div>
                         I am Sahil Chavan, a guy passionate for ↴ <div><Typing /></div>
                     </div>
-                    <a href='#about'> <button className='text-white btn-grad text-sm font-semibold w-40 md:w-48 md:py-5 py-4 mt-10 mx-auto md:mx-0'>Know me me ⬇</button></a>
+                    <a href='#about'> <button className='text-white btn-grad text-sm font-semibold w-40 md:w-48 md:py-5 py-4 mt-10 mx-auto md:mx-0'>Know me more ⬇</button></a>
                 </div>
             </div>
         </>

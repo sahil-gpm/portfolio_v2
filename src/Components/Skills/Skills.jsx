@@ -109,11 +109,11 @@ const Skills = () => {
       initial="hidden"
       animate={mainControls}
       transition={{ duration: 0.8, delay: 0.25 }}>
-      <div className="head text-4xl md:text-6xl ml-4 font-bold text-white">
+      <div className="head w-[75%] mx-auto text-center text-4xl md:text-6xl font-bold text-white">
         My Skills 🧑‍💻↴
       </div>
 
-      <div id='skill' className="skill-array flex flex-wrap gap-3 md:gap-4 mt-10 mb-10">
+      <div id='skill' className="skill-array flex flex-wrap justify-center gap-3 md:gap-4 my-10">
         {skills.map((skill) => {
           return (
             <motion.div key={skill.id} ref={cardRef} variants={{ hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0 } }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: skill.id * 0.1 }} className='card w-28 h-36 md:w-52 md:h-64 bg-card flex flex-col gap-3 justify-center items-center rounded-md text-sm md:text-xl shadow-md shadow-slate'>

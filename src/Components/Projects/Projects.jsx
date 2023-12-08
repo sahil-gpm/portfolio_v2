@@ -34,7 +34,7 @@ export const Projects = () => {
     }, ]
 
     return (
-        <motion.div className='mt-20 w-[90%] md:w-[90%] mx-auto text-center overflow-x-hidden'
+        <motion.div className='mt-36 w-[90%] md:w-[90%] mx-auto text-center overflow-x-hidden'
             ref={ref}
             variants={{
                 hidden: { opacity: 0, y: 75 },

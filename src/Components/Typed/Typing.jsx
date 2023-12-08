@@ -11,7 +11,7 @@ function Typing() {
             typeSpeed:70,
             backSpeed:20,
             loop:true
-        });
+        }); 
 
         return () => {
             // Destroy Typed instance during cleanup to stop animation
