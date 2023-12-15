@@ -100,7 +100,7 @@ const Skills = () => {
   }, [isInView, mainControls, cardControls, isInView2])
 
   return (
-    <motion.div className='h-fit mt-28 w-[95%] lg:w-[65%] md:mx-auto mx-4 overflow-x-hidden relative'
+    <motion.div className='h-fit mt-28 w-[95%] lg:w-[65%] md:mx-auto mx-4 overflow-hidden relative'
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 75 },
@@ -108,14 +108,14 @@ const Skills = () => {
       }}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 0.8, delay: 0.25 }}>
+      transition={{ duration: 0.8, delay: 0.15 }}>
       <div className="head w-[75%] mx-auto text-center text-4xl md:text-6xl font-bold text-white">
         My Skills 🧑‍💻↴
       </div>
       <div id='skill' className="skill-array flex flex-wrap justify-center gap-3 md:gap-4 my-10 demo">
         {skills.map((skill) => {
           return (
-            <motion.div key={skill.id} ref={cardRef} variants={{ hidden: { opacity: 0, x: skill.id % 2 === 0 ? -50 : 50, y: skill.id % 2 === 0 ? -50 : 50 }, visible: { opacity: 0.89, x: 0, y: 0 } }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: skill.id * 0.25 }} className='card w-28 h-36 md:w-52 md:h-64 bg-card flex flex-col gap-3 justify-center items-center rounded-md text-sm md:text-xl shadow-md shadow-slate overflow-hidden' >
+            <motion.div key={skill.id} ref={cardRef} variants={{ hidden: { opacity: 0, x: skill.id % 2 === 0 ? -50 : 50 }, visible: { opacity: 0.89, x: 0} }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: skill.id * 0.3 }} className='card w-28 h-36 md:w-52 md:h-64 bg-card flex flex-col gap-3 justify-center items-center rounded-md text-sm md:text-xl shadow-md shadow-slate overflow-hidden' >
               <div className="skillname text-white font-semibold text-xs md:text-base">
                 <span className='text-xs'>✔︎</span> {skill.skillname}
               </div>
