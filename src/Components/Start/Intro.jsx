@@ -1,5 +1,5 @@
 import React from 'react'
-import demo from '../assets/demo.jpg'
+import demo from '../assets/sahil.png'
 import { useInView } from 'react-intersection-observer'
 import Typing from '../Typed/Typing'
 import blob1 from '../assets/svgs/blob.svg'
