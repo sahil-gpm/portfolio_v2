@@ -12,7 +12,10 @@ module.exports = {
       white : "white",
       trans : "transparent",
       bg_light : "#f8fafc",
-      card:"#172554"
+      card:"#172554",
+      indigo:"#6366f1",
+      purple:"#a855f7",
+      pink:"#ec4899"
     },
     extend: {},
   },

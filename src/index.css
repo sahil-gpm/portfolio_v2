@@ -48,14 +48,20 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #050a1f;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     scroll-padding: 10rem;
 }
-#skill{
+
+#skill {
     scroll-snap-align: end;
 }
+
+.demo {
+    background-image: radial-gradient(#230143 30%,transparent 50%);
+  }
+  
