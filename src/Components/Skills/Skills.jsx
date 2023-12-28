@@ -79,6 +79,11 @@ const Skills = () => {
       id: 15,
       skillname: "Figma",
       proficiency: "Basic",
+    },
+    {
+      id: 16,
+      skillname: "Flutter",
+      proficiency: "Basic",
     }
   ]
 
@@ -115,7 +120,7 @@ const Skills = () => {
       <div id='skill' className="skill-array flex flex-wrap justify-center gap-3 md:gap-4 my-10 demo">
         {skills.map((skill) => {
           return (
-            <motion.div key={skill.id} ref={cardRef} variants={{ hidden: { opacity: 0, x: skill.id % 2 === 0 ? -50 : 50 }, visible: { opacity: 0.89, x: 0} }} initial="hidden" animate={cardControls} transition={{ duration: 0.6, delay: skill.id * 0.3 }} className='card w-28 h-36 md:w-52 md:h-64 bg-card flex flex-col gap-3 justify-center items-center rounded-md text-sm md:text-xl shadow-md shadow-slate overflow-hidden' >
+            <motion.div key={skill.id} ref={cardRef} variants={{ hidden: { opacity: 0, y: -50,x:-25  }, visible: { opacity: 0.89, y: 0,x:0} }} initial="hidden" animate={cardControls} transition={{ duration: 0.45, delay: skill.id * 0.3 }} className='card w-28 h-36 md:w-52 md:h-64 bg-card flex flex-col gap-3 justify-center items-center rounded-md text-sm md:text-xl shadow-md shadow-slate overflow-hidden' >
               <div className="skillname text-white font-semibold text-xs md:text-base">
                 <span className='text-xs'>✔︎</span> {skill.skillname}
               </div>
